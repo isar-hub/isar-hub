@@ -17,7 +17,7 @@
 
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=isar-hub&show_icons=true&locale=en&layout=compact" alt="isar-hub" /></p>
+
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=isar-hub&show_icons=true&locale=en" alt="isar-hub" /></p>
 
@@ -29,3 +29,4 @@
 <a href="https://instagram.com/your_ishhuu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="your_ishhuu" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/isar-24" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="isar-24" height="30" width="40" /></a>
 </p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=isar-hub&show_icons=true&locale=en&layout=compact" alt="isar-hub" /></p>
