@@ -1,4 +1,4 @@
-![alt text](C:\Users\isar7\Downloads\Screenshot 2023-02-01 013211.png)
+![alt text](Screenshot 2023-02-01 013211.png)
 
 <h1 align="center">Hi 👋, I'm Isar Ahmad</h1>
 <h3 align="center">A passionate developer from India</h3>
