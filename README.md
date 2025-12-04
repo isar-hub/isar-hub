@@ -105,48 +105,6 @@ Stay tuned for showcases of my best work in mobile development, including:
 
 ---
 
-## 🚀 Setup & Usage
-
-To explore any of my projects:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/isar-hub/[project-name].git
-   ```
-
-2. **Navigate to project directory:**
-   ```bash
-   cd [project-name]
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   # For Flutter projects
-   flutter pub get
-   
-   # For React Native projects
-   npm install
-   # or
-   yarn install
-   
-   # For Node.js projects
-   npm install
-   ```
-
-4. **Run the application:**
-   ```bash
-   # Flutter
-   flutter run
-   
-   # React Native
-   npm start
-   
-   # Node.js
-   npm start
-   ```
-
----
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
