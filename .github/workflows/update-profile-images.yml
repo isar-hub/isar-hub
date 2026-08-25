@@ -1,0 +1,69 @@
+name: Update Profile Images
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # once a day
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout assets branch
+        uses: actions/checkout@v4
+        with:
+          ref: assets
+          fetch-depth: 0
+
+      - name: Create assets branch if it doesn't exist yet
+        run: |
+          if ! git ls-remote --exit-code --heads origin assets; then
+            git checkout --orphan assets
+            git rm -rf . 2>/dev/null || true
+          fi
+          mkdir -p assets
+
+      - name: Fetch GitHub stats card
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=isar-hub&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" \
+            -o assets/stats.svg
+
+      - name: Fetch top languages card
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=isar-hub&layout=compact&theme=radical&hide_border=true&langs_count=8" \
+            -o assets/top-langs.svg
+
+      - name: Fetch streak stats card
+        run: |
+          curl -s "https://streak-stats.demolab.com/?user=isar-hub&theme=radical&hide_border=true" \
+            -o assets/streak.svg
+
+      - name: Fetch activity graph
+        run: |
+          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=isar-hub&theme=radical&hide_border=true&area=true" \
+            -o assets/activity-graph.svg
+
+      - name: Fetch trophy card
+        run: |
+          curl -s "https://github-profile-trophy.vercel.app/?username=isar-hub&theme=radical&no-frame=true&column=7&margin-w=8&margin-h=8" \
+            -o assets/trophy.svg
+
+      - name: Verify downloads produced real SVGs (not error pages)
+        run: |
+          for f in assets/*.svg; do
+            if ! grep -q "<svg" "$f"; then
+              echo "::warning::$f did not contain valid SVG content - source service may be down, keeping previous version"
+              git checkout -- "$f" 2>/dev/null || rm -f "$f"
+            fi
+          done
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --staged --quiet || git commit -m "Update profile images"
+          git push origin assets
