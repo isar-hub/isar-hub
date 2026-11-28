@@ -25,11 +25,30 @@
 
 <br/>
 
-<div align="center">
+## Tech stack
 
-<img src="https://skillicons.dev/icons?i=go,py,ts,kafka,redis,postgres,mongodb,fastapi,nodejs,nextjs,react,flutter,kotlin,docker,gcp,aws,githubactions,linux&perline=9" alt="Tech stack"/>
-
-</div>
+<table>
+<tr>
+<td width="32%"><b>Programming languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=go,py,ts,kotlin" height="40" alt="Languages"/><br/><sub>Go · Python · TypeScript · Kotlin</sub></td>
+</tr>
+<tr>
+<td><b>Backend and real-time data</b><br/><sub>servers, APIs, live price streams</sub></td>
+<td><img src="https://skillicons.dev/icons?i=fastapi,nodejs,kafka,redis" height="40" alt="Backend"/><br/><sub>FastAPI · Node.js · Kafka · Redis</sub></td>
+</tr>
+<tr>
+<td><b>Databases</b><br/><sub>storing users, orders and trades</sub></td>
+<td><img src="https://skillicons.dev/icons?i=postgres,mongodb" height="40" alt="Databases"/><br/><sub>PostgreSQL · MongoDB</sub></td>
+</tr>
+<tr>
+<td><b>Websites and mobile apps</b></td>
+<td><img src="https://skillicons.dev/icons?i=nextjs,react,flutter" height="40" alt="Web and mobile"/><br/><sub>Next.js · React · Flutter</sub></td>
+</tr>
+<tr>
+<td><b>Cloud and deployment</b><br/><sub>hosting and shipping to production</sub></td>
+<td><img src="https://skillicons.dev/icons?i=docker,gcp,aws,githubactions,linux" height="40" alt="Cloud"/><br/><sub>Docker · Google Cloud · AWS · GitHub Actions · Linux</sub></td>
+</tr>
+</table>
 
 ## What I've built
 
