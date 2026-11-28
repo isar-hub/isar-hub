@@ -1,41 +1,98 @@
-## Isar Ahmad
+<div align="center">
 
-CTO at [OmniMarketX](https://www.omnimarketx.com) · Senior Backend Engineer · FinTech and trading systems
+# Isar Ahmad
 
-[Portfolio](https://isarahmad.netlify.app) · [LinkedIn](https://www.linkedin.com/in/isar-ahmad24/) · [Email](mailto:isar786ahmad@gmail.com)
+### CTO at [OmniMarketX](https://www.omnimarketx.com) · Senior Backend Engineer
 
-I build backend systems for trading and financial products: order and settlement engines, real-time market data, and the cloud infrastructure that keeps them running. I started out in Android development and moved into backend engineering and distributed systems.
+**I build trading platforms, real-time market-data systems and the infrastructure behind them.**
 
-### Currently
+<a href="https://isarahmad.netlify.app"><img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/isar-ahmad24/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:isar786ahmad@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
 
-- **CTO, OmniMarketX**: I lead engineering and own the architecture of a prediction-market and trading platform that is live in production.
-- **Senior Software Engineer / Quant Engineer, Fractal Street**: I build real-time market-data systems, WebSocket APIs and backtesting infrastructure.
+</div>
 
-### Selected work
+<br/>
 
-**OmniMarketX**: prediction market and trading platform<br/>
-Full trading lifecycle (markets, orders, matching, positions, settlement and resolution), real-time updates over WebSockets, wallet with deposits, withdrawals and in-house KYC, and CI/CD with database backups before every production deploy.<br/>
-<sub>Go · Fiber · Next.js · PostgreSQL · Redis · Docker · Google Cloud</sub>
+<table align="center">
+<tr>
+<td align="center" width="25%"><h3>CTO</h3>Leading engineering<br/>at OmniMarketX</td>
+<td align="center" width="25%"><h3>4</h3>Platforms shipped<br/>to production</td>
+<td align="center" width="25%"><h3>10,000+</h3>Concurrent users on<br/>a platform I built</td>
+<td align="center" width="25%"><h3>Real-time</h3>Trading and<br/>market-data systems</td>
+</tr>
+</table>
 
-**Fractal Street**: real-time trading analytics<br/>
-Event-driven market-data ingestion and tick streaming, live P&L and drawdown analytics, market scanners, paper trading and historical backtesting.<br/>
-<sub>Python · FastAPI · Kafka · PostgreSQL · Redis · AWS</sub>
+<br/>
 
-**Ride booking platform**: in production, 10,000+ concurrent users<br/>
-Real-time GPS tracking, driver and rider matching, wallet, scheduled and multi-stop rides, parcel delivery and automated fares.
+<div align="center">
 
-**WALI-Enterprises**: e-commerce platform in production<br/>
-Nine business modules covering products, orders, Razorpay payments and Cloudinary media, plus a role-based admin panel, Swagger docs and CI/CD.<br/>
-<sub>Node.js · Express · MongoDB</sub>
+<img src="https://skillicons.dev/icons?i=go,py,ts,kafka,redis,postgres,mongodb,fastapi,nodejs,nextjs,react,flutter,kotlin,docker,gcp,aws,githubactions,linux&perline=9" alt="Tech stack"/>
 
-### Stack
+</div>
 
-- **Languages:** Go, Python, TypeScript, JavaScript, Kotlin, Java, Dart
-- **Backend:** Fiber, FastAPI, Node.js, Kafka, Redis, WebSockets
-- **Data:** PostgreSQL, MongoDB, Firebase
-- **Frontend and mobile:** Next.js, React, Flutter, Android
-- **Infrastructure:** Google Cloud, AWS, Docker, GitHub Actions, Nginx, Linux
+## What I've built
 
-### Education
+<table>
+<tr>
+<td width="50%" valign="top">
 
-B.Tech in Electronics and Communication Engineering, Aliah University (2020–2024)
+#### [OmniMarketX](https://www.omnimarketx.com)
+Prediction market and trading platform · **CTO**
+
+- Full trading lifecycle: orders, matching, positions, settlement
+- Real-time prices and chat over WebSockets
+- Wallet, deposits, withdrawals and in-house KYC
+
+`Go` `Fiber` `Next.js` `PostgreSQL` `Redis` `GCP`
+
+</td>
+<td width="50%" valign="top">
+
+#### Fractal Street
+Real-time trading analytics · **Senior SWE / Quant Engineer**
+
+- Market-data ingestion and tick streaming
+- Live P&L and drawdown analytics over WebSockets
+- Market scanners, paper trading and backtesting
+
+`Python` `FastAPI` `Kafka` `PostgreSQL` `Redis` `AWS`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### Ride Booking Platform
+In production · **10,000+ concurrent users**
+
+- Real-time GPS tracking and driver/rider matching
+- Wallet, scheduled and multi-stop rides
+- Parcel delivery and automated fares
+
+</td>
+<td width="50%" valign="top">
+
+#### WALI-Enterprises
+E-commerce platform · **in production**
+
+- 9+ business modules: products, orders, payments
+- Razorpay, Cloudinary, role-based admin panel
+- Swagger API docs and CI/CD
+
+`Node.js` `Express` `MongoDB`
+
+</td>
+</tr>
+</table>
+
+## GitHub
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=isar-hub&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&bg_color=00000000&text_color=8B949E&icon_color=6366F1&rank_icon=github" height="150" alt="GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isar-hub&layout=compact&hide_border=true&langs_count=6&hide_title=true&bg_color=00000000&text_color=8B949E" height="150" alt="Top languages"/>
+
+</div>
+
+<sub>B.Tech, Electronics and Communication Engineering · Aliah University · 2020–2024</sub>
