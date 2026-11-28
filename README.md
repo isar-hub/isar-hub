@@ -30,23 +30,27 @@
 <table>
 <tr>
 <td width="32%"><b>Programming languages</b></td>
-<td><img src="https://skillicons.dev/icons?i=go,py,ts,kotlin" height="40" alt="Languages"/><br/><sub>Go · Python · TypeScript · Kotlin</sub></td>
+<td><img src="https://skillicons.dev/icons?i=go,py,ts,js,java,kotlin,dart" height="40" alt="Languages"/><br/><sub>Go · Python · TypeScript · JavaScript · Java · Kotlin · Dart</sub></td>
 </tr>
 <tr>
 <td><b>Backend and real-time data</b><br/><sub>servers, APIs, live price streams</sub></td>
-<td><img src="https://skillicons.dev/icons?i=fastapi,nodejs,kafka,redis" height="40" alt="Backend"/><br/><sub>FastAPI · Node.js · Kafka · Redis</sub></td>
+<td><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,kafka,redis" height="40" alt="Backend"/><br/><sub>Go Fiber · FastAPI · Node.js · Express · Kafka · Redis</sub></td>
 </tr>
 <tr>
 <td><b>Databases</b><br/><sub>storing users, orders and trades</sub></td>
-<td><img src="https://skillicons.dev/icons?i=postgres,mongodb" height="40" alt="Databases"/><br/><sub>PostgreSQL · MongoDB</sub></td>
+<td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,firebase" height="40" alt="Databases"/><br/><sub>PostgreSQL · MySQL · MongoDB · Firebase</sub></td>
 </tr>
 <tr>
 <td><b>Websites and mobile apps</b></td>
-<td><img src="https://skillicons.dev/icons?i=nextjs,react,flutter" height="40" alt="Web and mobile"/><br/><sub>Next.js · React · Flutter</sub></td>
+<td><img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,flutter,androidstudio" height="40" alt="Web and mobile"/><br/><sub>Next.js · React · Tailwind CSS · Flutter · Android</sub></td>
 </tr>
 <tr>
 <td><b>Cloud and deployment</b><br/><sub>hosting and shipping to production</sub></td>
-<td><img src="https://skillicons.dev/icons?i=docker,gcp,aws,githubactions,linux" height="40" alt="Cloud"/><br/><sub>Docker · Google Cloud · AWS · GitHub Actions · Linux</sub></td>
+<td><img src="https://skillicons.dev/icons?i=docker,gcp,aws,githubactions,nginx,linux" height="40" alt="Cloud"/><br/><sub>Docker · Google Cloud · AWS · GitHub Actions · Nginx · Linux</sub></td>
+</tr>
+<tr>
+<td><b>Payments, crypto and analytics</b><br/><sub>taking money, wallets, tracking usage</sub></td>
+<td>Stripe · Ethereum / Web3 (viem, wagmi, go-ethereum) · PostHog</td>
 </tr>
 </table>
 
